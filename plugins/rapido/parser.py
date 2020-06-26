@@ -41,7 +41,7 @@ class DataScan(Connect):
             elif urls[-2] == 'rapido':
                 archive = 'Rapido'
             # Если в content_circulations присутствуют числа [5, 10, 15, 20] ничего не делаем
-            if '5' in content_circulations and '10' in content_circulations and '15' or content_circulations and '20' in content_circulations:
+            if '5' in content_circulations.split() or '10' in content_circulations.split() or '15' in content_circulations.split() or '20' in content_circulations.split():
                 pass
             else:   # иначе записываем данные в список
                 self.data.append({

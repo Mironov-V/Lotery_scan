@@ -53,7 +53,6 @@ class Main:
                 send_and_select_data(var=DataScan(data_list=self.data_list).HTML_data(url=self.rapido))
                 send_and_select_data(var=DataScan(data_list=self.data_list).HTML_data(url=self.rapido2))
 
-                # print(SELECT_FROM(db_connect=db_connect, table='RapidoModel'))
 
                 time.sleep(60)
         # Держать постоянное прослушивание
