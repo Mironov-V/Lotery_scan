@@ -1,5 +1,5 @@
 import sys
-sys.path.append('/home/user/Документы/Проекты/')
+sys.path.append('/home/vyacheslav/bot/')
 from AmritaORM.SettingsConnect.connect import data_session_connection
 from AmritaORM.SettingsMigrations.migrations import Migration
 from AmritaORM.engineer import Models

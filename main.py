@@ -1,6 +1,6 @@
 import sys, time
 from telebot import TeleBot
-sys.path.append('/home/user/Документы/Проекты/')
+sys.path.append('/home/vyacheslav/bot/')
 from AmritaORM.appeal import SELECT_FROM
 from AmritaORM.appeal import INSERT_DATA
 from models import db_connect
@@ -45,7 +45,7 @@ class Main:
                 del self.data_list[:]
 
 
-            sys.path.append('/home/user/Документы/Проекты/Lotery_scan/plugins/')
+            sys.path.append('/home/vyacheslav/bot/Lotery_scan/plugins/')
             from rapido.parser import DataScan
 
             while True:
